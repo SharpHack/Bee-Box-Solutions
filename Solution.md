@@ -12,8 +12,9 @@ Types of XSS Attacks :
           
 #### 2)Reflected XSS - Type II (Non-Persistent) 
           Reflected attacks are those where the injected script is reflected off the web server, such as in an error message, search result, or any other response that includes some or all of the input sent to the server as part of the request. Reflected attacks are delivered to victims via another route, such as in an e-mail message, or on some other website.
-3)DOM Based XSS - Type-0 
+#### 3)DOM Based XSS - Type-0 
          DOM Based XSS is a attack wherein the attack payload is executed as a result of modifying the DOM “environment” in the victim’s browser used by the original client side script, so that the client side code runs in an “unexpected” manner.That is, the page itself (the HTTP response that is) does not change, but the client side code contained in the page executes differently due to the malicious modifications that have occurred in the DOM environment. 
 
-For more Refer : [Cross Site Scripting](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
+##### For more Refer :
+                 [Cross Site Scripting](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
                  [DOM_Based_XSS](https://www.owasp.org/index.php/DOM_Based_XSS)
