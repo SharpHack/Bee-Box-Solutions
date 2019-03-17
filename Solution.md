@@ -15,5 +15,5 @@ Types of XSS Attacks :
 3)DOM Based XSS - Type-0 
          DOM Based XSS is a attack wherein the attack payload is executed as a result of modifying the DOM “environment” in the victim’s browser used by the original client side script, so that the client side code runs in an “unexpected” manner.That is, the page itself (the HTTP response that is) does not change, but the client side code contained in the page executes differently due to the malicious modifications that have occurred in the DOM environment. 
 
-For more Refer : [I'm an inline-style link] https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
+For more Refer : [Cross Site Scripting](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
                  [I'm an inline-style link] https://www.owasp.org/index.php/DOM_Based_XSS  
